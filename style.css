@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --maincolor: #FFFFFF;
+    --secondarycolor: #C0C0C0;
+    --bluebotton: #167BF7;
+    --backgroundcolor: #00030C;
+}
+
+body {
+    background-color: var(--backgroundcolor);
+    color: var(--maincolor);
+}
