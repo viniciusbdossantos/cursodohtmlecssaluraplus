@@ -24,3 +24,8 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
+.container__botton {
+    background-color: var(--bluebotton);
+    border-radius: 5px;
+}
