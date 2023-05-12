@@ -41,4 +41,5 @@ body {
 
 .secondary-botton {
     background-color: transparent;
+    border: 2px solid var(--maincolor)
 }
