@@ -19,10 +19,22 @@ body {
     font-weight: 400;
 }
 
+.main {
+    background-image: url("img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
 .container {
     display: grid;
     height: 100vh;
     grid-template-columns: 50% 50%;
+}
+
+.container__box {
+    margin: 0 6em;
 }
 
 .container__title {
@@ -32,12 +44,6 @@ body {
 
 .container__image {
     margin: 1em 0 2em 0; 
-}
-
-.main {
-    background-image: url("img/Background.png");
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .container__botton {
