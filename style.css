@@ -75,7 +75,22 @@ body {
     width: 80%;
 }
 
+.container__description {
+    padding: 2em;
+}
+
 .description__title {
     font-weight: 700;
     font-size: 48px;
+    color: var(--maincolor);
+    margin-bottom: 0.1em;
+}
+
+.description__text {
+    color: var(--secondarycolor);
+}
+
+.secondary__botton {
+    display: inline-block;
+    margin-top: 1em;
 }
