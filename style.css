@@ -65,3 +65,17 @@ body {
     font-size: 12px;
     color: var(--secondarycolor);
 }
+
+.secondary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secondary__image {
+    width: 80%;
+}
+
+.description__title {
+    font-weight: 700;
+    font-size: 48px;
+}
